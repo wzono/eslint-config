@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "description": "weajer's eslint config",
   "keywords": [
-    "eslint",
     "eslint-config"
   ],
   "homepage": "https://github.com/weajer/eslint-config#readme",
@@ -17,6 +16,9 @@
   "license": "MIT",
   "author": "Weajer Zon<weajer.zon@gmail.com> (https://github.com/weajer/)",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "eslint-config-standard": "^17.1.0"
   },
