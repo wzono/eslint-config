@@ -1,0 +1,23 @@
+{
+  "name": "@weajer/eslint-config-mono",
+  "version": "0.0.0",
+  "description": "weajer's eslint config presets",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "homepage": "https://github.com/weajer/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/weajer/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weajer/eslint-config.git"
+  },
+  "license": "MIT",
+  "author": "Weajer Zon<weajer.zon@gmail.com> (https://github.com/weajer/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
