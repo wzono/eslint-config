@@ -1,3 +1,3 @@
-# @weajer/eslint-config
+# @wzono/eslint-config
 
-weajer's eslint config presets
+wzono's eslint config presets

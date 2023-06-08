@@ -1,20 +1,20 @@
 {
-  "name": "@weajer/eslint-config",
+  "name": "@wzono/eslint-config",
   "version": "0.0.1",
-  "description": "weajer's eslint config",
+  "description": "wzono's eslint config",
   "keywords": [
     "eslint-config"
   ],
-  "homepage": "https://github.com/weajer/eslint-config#readme",
+  "homepage": "https://github.com/wzono/eslint-config#readme",
   "bugs": {
-    "url": "https://github.com/weajer/eslint-config/issues"
+    "url": "https://github.com/wzono/eslint-config/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/weajer/eslint-config.git"
+    "url": "git+https://github.com/wzono/eslint-config.git"
   },
   "license": "MIT",
-  "author": "Weajer Zon<weajer.zon@gmail.com> (https://github.com/weajer/)",
+  "author": "wzono Zon<wzono.zon@gmail.com> (https://github.com/wzono/)",
   "main": "index.js",
   "files": [
     "index.js"
