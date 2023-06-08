@@ -1,6 +1,6 @@
 {
   "name": "@weajer/eslint-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "weajer's eslint config",
   "keywords": [
     "eslint-config"

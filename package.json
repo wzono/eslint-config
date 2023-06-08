@@ -1,6 +1,6 @@
 {
   "name": "@weajer/eslint-config-mono",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "description": "weajer's eslint config presets",
   "keywords": [
