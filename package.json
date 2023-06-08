@@ -1,6 +1,7 @@
 {
   "name": "@weajer/eslint-config-mono",
   "version": "0.0.0",
+  "private": true,
   "description": "weajer's eslint config presets",
   "keywords": [
     "eslint",
@@ -19,6 +20,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@weajer/eslint-config": "workspace:*"
   },
   "packageManager": "pnpm@8.5.1"
 }
