@@ -1,0 +1,36 @@
+{
+  "name": "@wzono/eslint-config-react",
+  "version": "0.0.1",
+  "description": "wzono's react eslint config",
+  "author": "Wesley Zon<wzono.zon@gmail.com> (https://github.com/wzono/)",
+  "license": "MIT",
+  "homepage": "https://github.com/wzono/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzono/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wzono/eslint-config/issues"
+  },
+  "keywords": [
+    "eslint-config",
+    "react"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@wzono/eslint-config-basic": "workspace:*",
+    "@wzono/eslint-config-ts": "workspace:*",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "local-pkg": "^0.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.42.0"
+  }
+}
