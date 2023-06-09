@@ -1,6 +1,6 @@
 {
   "name": "@wzono/eslint-config-basic",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "wzono's basic eslint config",
   "author": "Wesley Zon<wzono.zon@gmail.com> (https://github.com/wzono/)",
   "license": "MIT",

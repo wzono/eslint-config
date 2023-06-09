@@ -1,6 +1,6 @@
 {
   "name": "@wzono/eslint-config-ts",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "wzono's ts eslint config",
   "author": "Wesley Zon<wzono.zon@gmail.com> (https://github.com/wzono/)",
   "license": "MIT",

@@ -1,6 +1,6 @@
 {
   "name": "@wzono/eslint-config-mono",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "packageManager": "pnpm@8.5.1",
   "description": "wzono's eslint config presets",
