@@ -1,0 +1,36 @@
+{
+  "name": "@wzono/eslint-config-basic",
+  "version": "0.0.1",
+  "description": "wzono's basic eslint config",
+  "author": "Wesley Zon<wzono.zon@gmail.com> (https://github.com/wzono/)",
+  "license": "MIT",
+  "homepage": "https://github.com/wzono/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzono/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wzono/eslint-config/issues"
+  },
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "eslint-config-standard": "17.1.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsonc": "^2.8.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "jsonc-eslint-parser": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.42.0"
+  }
+}
