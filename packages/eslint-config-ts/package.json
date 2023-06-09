@@ -1,0 +1,35 @@
+{
+  "name": "@wzono/eslint-config-ts",
+  "version": "0.0.1",
+  "description": "wzono's ts eslint config",
+  "author": "Wesley Zon<wzono.zon@gmail.com> (https://github.com/wzono/)",
+  "license": "MIT",
+  "homepage": "https://github.com/wzono/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzono/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wzono/eslint-config/issues"
+  },
+  "keywords": [
+    "eslint-config",
+    "typescript"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7",
+    "@wzono/eslint-config-basic": "workspace:*"
+  },
+  "devDependencies": {
+    "eslint": "^8.42.0"
+  }
+}
