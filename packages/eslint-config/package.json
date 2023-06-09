@@ -2,30 +2,30 @@
   "name": "@wzono/eslint-config",
   "version": "0.0.1",
   "description": "wzono's eslint config",
-  "keywords": [
-    "eslint-config"
-  ],
+  "author": "Wesley Zon<wzono.zon@gmail.com> (https://github.com/wzono/)",
+  "license": "MIT",
   "homepage": "https://github.com/wzono/eslint-config#readme",
-  "bugs": {
-    "url": "https://github.com/wzono/eslint-config/issues"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wzono/eslint-config.git"
   },
-  "license": "MIT",
-  "author": "wzono Zon<wzono.zon@gmail.com> (https://github.com/wzono/)",
+  "bugs": {
+    "url": "https://github.com/wzono/eslint-config/issues"
+  },
+  "keywords": [
+    "eslint-config"
+  ],
   "main": "index.js",
   "files": [
     "index.js"
   ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
   "dependencies": {
-    "eslint-config-standard": "^17.1.0"
+    "@wzono/eslint-config-react": "workspace:*"
   },
   "devDependencies": {
     "eslint": "^8.42.0"
-  },
-  "peerDependencies": {
-    "eslint": ">=7.4.0"
   }
 }

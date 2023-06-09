@@ -1,5 +1,5 @@
 module.exports = {
   extends: [
-    'eslint-config-standard',
-  ]
+    '@wzono/eslint-config-react',
+  ],
 }
