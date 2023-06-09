@@ -2,27 +2,29 @@
   "name": "@wzono/eslint-config-mono",
   "version": "0.0.1",
   "private": true,
+  "packageManager": "pnpm@8.5.1",
   "description": "wzono's eslint config presets",
-  "keywords": [
-    "eslint",
-    "eslint-config"
-  ],
+  "author": "wzono Zon<wzono.zon@gmail.com> (https://github.com/wzono/)",
+  "license": "MIT",
   "homepage": "https://github.com/wzono/eslint-config#readme",
-  "bugs": {
-    "url": "https://github.com/wzono/eslint-config/issues"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wzono/eslint-config.git"
   },
-  "license": "MIT",
-  "author": "wzono Zon<wzono.zon@gmail.com> (https://github.com/wzono/)",
+  "bugs": {
+    "url": "https://github.com/wzono/eslint-config/issues"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "bumpp -r && pnpm -r publish",
+    "lint": "pnpm run -r lint"
   },
   "devDependencies": {
-    "@wzono/eslint-config": "workspace:*"
-  },
-  "packageManager": "pnpm@8.5.1"
+    "@wzono/eslint-config": "workspace:*",
+    "bumpp": "^9.1.1"
+  }
 }
