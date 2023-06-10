@@ -24,13 +24,14 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
     'react/jsx-props-no-multi-spaces': ['error'],
-    'react/jsx-one-expression-per-line': ['error'],
-    'react/jsx-closing-bracket-location': ['error'],
     'react/jsx-indent': ['error', 2],
     'react/jsx-indent-props': ['error', 2],
     'react/jsx-max-props-per-line': [
       'error',
       { maximum: 1, when: 'multiline' },
     ],
+    'react/jsx-no-leaked-render': ['error'],
+    'react/jsx-one-expression-per-line': ['error', { allow: 'literal' }],
+    'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
   },
 }
